@@ -1,0 +1,1 @@
+void dynamic_buffer_underrun_033() char * message = ( char * ) calloc ( 12 , sizeof ( char ) ) ; int index = 12 ; int len = index - 1 ; int c ; if ( message != NULL )  while ( len > 0 )  c = message [ len ]; if ( isspace ( c ) )  message [ len ] = '\n'; len --; free ( message ); 

@@ -1,0 +1,1 @@
+void CWE665_Improper_Initialization__char_cat_32_bad() char * data ; char * * dataPtr2 = & data ; char dataBuffer [ 100 ] ; data = dataBuffer; char * data = * dataPtr2 ; char source [ 100 ] ; memset ( source , 'C' , 100 - 1 ); source [ 100 - 1 ] = '\0'; strcat ( data , source ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

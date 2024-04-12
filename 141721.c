@@ -1,0 +1,1 @@
+static void good2() if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; char dest [ DEST_SIZE ] ; int intFive = 5 ; sprintf ( dest , "%d" , intFive ); printLine ( dest ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

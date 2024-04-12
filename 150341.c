@@ -1,0 +1,1 @@
+static void goodG2B1() char * password ; password = ""; password = goodG2B1Source ( password ); static char * goodG2B1Source(char * password) if ( goodG2B1Static )  password = ( char * ) malloc ( 100 * sizeof ( char ) ); strcpy ( password , "Password1234!" ); return password ; free ( password ); 

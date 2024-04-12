@@ -1,0 +1,1 @@
+void CWE467_Use_of_sizeof_on_Pointer_Type__int_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; int * goodInt = NULL ; goodInt = ( int * ) malloc ( sizeof ( * goodInt ) ); * goodInt = 6; printIntLine ( * goodInt ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( goodInt ); 

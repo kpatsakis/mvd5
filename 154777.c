@@ -1,0 +1,1 @@
+static void goodB2G() list < char * > dataList ; goodB2GSink ( dataList ); void goodB2GSink(list<char *> dataList) char * data = dataList . back ( ) ; if ( data != NULL )  strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

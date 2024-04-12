@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; data = NULL; data = ( int * ) malloc ( 10 * sizeof ( int ) ); CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_63b_goodG2BSink ( & data ); void CWE122_Heap_Based_Buffer_Overflow__CWE131_memcpy_63b_goodG2BSink(int * * dataPtr) int * data = * dataPtr ; int source [ 10 ] = { 0 } ; memcpy ( data , source , 10 * sizeof ( int ) ); free ( data ); 

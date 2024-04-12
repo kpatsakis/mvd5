@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; CWE122_Heap_Based_Buffer_Overflow__c_CWE805_int_memcpy_34_unionType myUnion ; data = NULL; data = ( int * ) malloc ( 100 * sizeof ( int ) ); myUnion . unionFirst = data; int * data = myUnion . unionSecond ; int source [ 100 ] = { 0 } ; memcpy ( data , source , 100 * sizeof ( int ) ); free ( data ); 

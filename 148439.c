@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; data = NULL; data = ( char * ) calloc ( 100 , sizeof ( char ) ); strcpy ( data , "A String" ); CWE401_Memory_Leak__char_calloc_64b_goodB2GSink ( & data ); void CWE401_Memory_Leak__char_calloc_64b_goodB2GSink(void * dataVoidPtr) char * * dataPtr = ( char * * ) dataVoidPtr ; char * data = ( * dataPtr ) ; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; data = new char [ 100 ]; memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; baseObject -> action ( data ); void CWE122_Heap_Based_Buffer_Overflow__cpp_src_char_cat_82_goodG2B::action(char * data) strcat ( dest , data ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); delete [ ] data 

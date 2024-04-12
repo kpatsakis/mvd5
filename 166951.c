@@ -1,0 +1,1 @@
+static void goodB2G() TwoIntsClass * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = NULL; data = ( TwoIntsClass * ) realloc ( data , 100 * sizeof ( TwoIntsClass ) ); free ( data ); free ( data ); 

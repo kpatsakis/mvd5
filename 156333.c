@@ -1,0 +1,1 @@
+static void goodG2B1() char * password ; password = ""; if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; password = ( char * ) malloc ( 100 * sizeof ( char ) ); strcpy ( password , "Password1234!" ); if ( LogonUserA ( username , domain , password , LOGON32_LOGON_NETWORK , LOGON32_PROVIDER_DEFAULT , & pHandle ) != 0 )  free ( password ); 

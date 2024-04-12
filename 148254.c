@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; data = NULL; data = goodG2BSource ( data ); static char * goodG2BSource(char * data) data = ( char * ) ALLOCA ( 100 * sizeof ( char ) ); strcpy ( data , "a string" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); return data ; 

@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; data = NULL; char myString [ ] = "myString" ; data = strdup ( myString ); goodB2GSink ( & data ); void goodB2GSink(void * dataVoidPtr) char * * dataPtr = ( char * * ) dataVoidPtr ; char * data = ( * dataPtr ) ; free ( data ); 

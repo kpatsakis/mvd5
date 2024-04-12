@@ -1,0 +1,1 @@
+void bad() int * data ; data = NULL; data = NULL; data = ( int * ) realloc ( data , 100 * sizeof ( int ) ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; badSink ( dataMap ); void badSink(map<int, int *> dataMap) int * data = dataMap [ 2 ] ; 

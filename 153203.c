@@ -1,0 +1,1 @@
+void bad() size_t data ; unionType myUnion ; data = 0; char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = strtoul ( inputBuffer , NULL , 0 ); myUnion . unionFirst = data; size_t data = myUnion . unionSecond ; if ( data > strlen ( HELLO_STRING ) )  

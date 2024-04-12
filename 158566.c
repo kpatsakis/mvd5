@@ -1,0 +1,1 @@
+int main(int argc, char **argv) int shmsz ; char * str = NULL ; int c ; while ( ( c = getopt ( argc , argv , "k:s:m:o:h" ) ) != - 1 )  switch ( c )  if ( ( shmsz = atoi ( optarg ) ) <= 0 )  str = optarg; if ( ! str )  if ( strlen ( str ) >= shmsz )  

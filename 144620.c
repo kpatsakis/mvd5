@@ -1,0 +1,1 @@
+void CWE400_Resource_Exhaustion__rand_fwrite_04_bad() int count ; count = - 1; if ( STATIC_CONST_TRUE )  count = RAND32 ( ); if ( STATIC_CONST_TRUE )  const char * filename = "output_bad.txt" ; pFile = fopen ( filename , "w+" ); for (i = 0; i < (size_t)count; i++) if ( strlen ( SENTENCE ) != fwrite ( SENTENCE , sizeof ( char ) , strlen ( SENTENCE ) , pFile ) )  

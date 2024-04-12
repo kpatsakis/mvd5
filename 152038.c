@@ -1,0 +1,1 @@
+static void good1() int k ; for(k = 0; k < 1; k++) short * goodShort = NULL ; goodShort = ( short * ) malloc ( sizeof ( * goodShort ) ); * goodShort = 6; printShortLine ( * goodShort ); void printShortLine (short shortNumber) printf ( "%hd\n" , shortNumber ); free ( goodShort ); 

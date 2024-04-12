@@ -1,0 +1,1 @@
+static void goodG2B() int h ; long * data ; data = NULL; for(h = 0; h < 1; h++) long * dataBuffer = ( long * ) malloc ( 100 * sizeof ( long ) ) ; size_t i ; for (i = 0; i < 100; i++) dataBuffer [ i ] = 5L; data = dataBuffer; free ( data ); 

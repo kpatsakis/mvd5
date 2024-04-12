@@ -1,0 +1,1 @@
+int main(int argc, char *argv[]) char * str [ 1 ] = { ( char * ) NULL } ; if ( ( * str = ( char * ) malloc ( 256 * sizeof ( char ) ) ) != NULL )  strcpy ( * str , "Falut!" ); * * str = 'S'; printf ( "%s\n" , * str ); free ( * str ); * str = NULL; if ( * str )  * * str = 'S'; 

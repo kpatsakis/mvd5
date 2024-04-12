@@ -1,0 +1,1 @@
+static int default_lockmgr_cb(void **arg, enum AVLockOp op) void * volatile * mutex = arg int err ; switch ( op )  if ( ! * mutex )  pthread_mutex_t * tmp = av_malloc ( sizeof ( pthread_mutex_t ) ) ; if ( ! tmp )  if ( err = pthread_mutex_init ( tmp , NULL ) )  if ( avpriv_atomic_ptr_cas ( mutex , NULL , tmp ) )  pthread_mutex_destroy ( tmp ); 

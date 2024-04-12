@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__struct_calloc_21_bad() twoIntsStruct * data ; data = NULL; data = ( twoIntsStruct * ) calloc ( 1 , sizeof ( twoIntsStruct ) ); badSink ( data ); static void badSink(twoIntsStruct * data) if ( badStatic )  data [ 0 ] . intOne = 1; data [ 0 ] . intTwo = 1; free ( data ); 

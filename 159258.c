@@ -1,0 +1,1 @@
+static void goodB2G2() long * data ; data = NULL; data = ( long * ) realloc ( data , 1 * sizeof ( long ) ); if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; if ( data != NULL )  data [ 0 ] = 5L; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodB2G() long * data ; data = NULL; goodB2GSource ( data ); void goodB2GSource(long * &data) data = ( long * ) malloc ( 100 * sizeof ( long ) ); size_t i ; for(i = 0; i < 100; i++) data [ i ] = 5L; free ( data ); 

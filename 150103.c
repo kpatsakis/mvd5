@@ -1,0 +1,1 @@
+void CWE761_Free_Pointer_Not_at_Start_of_Buffer__char_fixed_string_34_bad() char * data ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); data [ 0 ] = '\0'; strcpy ( data , BAD_SOURCE_FIXED_STRING ); myUnion . unionFirst = data; char * data = myUnion . unionSecond ; for (; *data != '\0'; data++) if ( * data == SEARCH_CHAR )  free ( data ); 

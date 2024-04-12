@@ -1,0 +1,1 @@
+static void goodG2B() int h , j ; char * data ; data = NULL; for(h = 0; h < 1; h++) char dataGoodBuffer [ 100 ] ; data = dataGoodBuffer; strcpy ( data , "A String" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

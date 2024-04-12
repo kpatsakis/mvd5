@@ -1,0 +1,1 @@
+static void goodG2B() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; const char * filename = "output_bad.txt" ; pFile = fopen ( filename , "w+" ); const char * filename = "output_bad.txt" ; pFile = fopen ( filename , "w+" ); if ( pFile )  fclose ( pFile ); 

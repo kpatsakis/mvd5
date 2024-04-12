@@ -1,0 +1,1 @@
+static ssize_t tcm_vhost_tpg_store_nexus(struct se_portal_group const char size_t count) unsigned char i_port [ TCM_VHOST_NAMELEN ] , * ptr , * port_ptr ; if ( ! strncmp ( page , "NULL" , 4 ) )  if ( strlen ( page ) >= TCM_VHOST_NAMELEN )  ptr = strstr ( i_port , "naa." ); if ( ptr )  ptr = strstr ( i_port , "fc." ); if ( ptr )  ptr = strstr ( i_port , "iqn." ); if ( ptr )  

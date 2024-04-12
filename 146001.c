@@ -1,0 +1,1 @@
+static void goodB2G1() twoIntsStruct * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( twoIntsStruct * ) calloc ( 100 , sizeof ( twoIntsStruct ) ); if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; free ( data ); 

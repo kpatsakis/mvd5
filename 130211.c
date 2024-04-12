@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__sizeof_double_12_bad() double * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( double * ) malloc ( sizeof ( data ) ); data = ( double * ) malloc ( sizeof ( * data ) ); * data = 1.7E300; free ( data ); 

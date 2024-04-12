@@ -1,0 +1,1 @@
+void CWE685_Function_Call_With_Incorrect_Number_of_Arguments__basic_11_bad() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; char dest [ DEST_SIZE ] ; sprintf ( dest , "%s %s" , SOURCE_STRING ); printLine ( dest ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

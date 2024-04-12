@@ -1,0 +1,1 @@
+static void goodG2B() char * data ; char dataBuffer [ 250 ] = "PATH=" ; data = dataBuffer; strcat ( data , NEW_PATH ); dataArray [ 2 ] = data; CWE427_Uncontrolled_Search_Path_Element__char_file_66b_goodG2BSink ( dataArray ); void CWE427_Uncontrolled_Search_Path_Element__char_file_66b_goodG2BSink(char * dataArray[]) char * data = dataArray [ 2 ] ; PUTENV ( data ); 

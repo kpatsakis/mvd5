@@ -1,0 +1,1 @@
+void CWE253_Incorrect_Check_of_Function_Return_Value__char_fgets_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; char dataBuffer [ 100 ] = "" ; char * data = dataBuffer ; if ( fgets ( data , 100 , stdin ) == NULL )  printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); 

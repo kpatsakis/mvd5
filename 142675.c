@@ -1,0 +1,1 @@
+void bad() list < size_t > dataList ; badSink ( dataList ); void badSink(list<size_t> dataList) size_t data = dataList . back ( ) ; char * myString ; if ( data > strlen ( HELLO_STRING ) )  myString = ( char * ) malloc ( data * sizeof ( char ) ); strcpy ( myString , HELLO_STRING ); free ( myString ); 

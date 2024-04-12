@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__char_realloc_32_bad() char * data ; char * * dataPtr1 = & data ; char * * dataPtr2 = & data ; data = NULL; char * data = * dataPtr1 ; data = ( char * ) realloc ( data , 20 * sizeof ( char ) ); char * data = * dataPtr2 ; strcpy ( data , "Initialize" ); free ( data ); 

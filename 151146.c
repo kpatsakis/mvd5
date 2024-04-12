@@ -1,0 +1,1 @@
+template <class MDefinition* binary(MDefinition* lhs, MDefinition* rhs, MIRType type) if ( inDeadCode ( ) )  inline bool inDeadCode() const return curBlock_ == nullptr ; T * ins = T :: NewAsmJS ( alloc ( ) , lhs , rhs , type ) ; return * alloc_ ; TempAllocator &     alloc() const curBlock_ -> add ( ins ); return ins ; 

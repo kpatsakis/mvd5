@@ -1,0 +1,1 @@
+void CWE121_Stack_Based_Buffer_Overflow__CWE135_16_bad() void * data ; data = NULL; while ( 1 )  data = ( void * ) WIDE_STRING; while ( 1 )  size_t dataLen = strlen ( ( char * ) data ) ; void * dest = ( void * ) calloc ( dataLen + 1 , 1 ) ; memcpy ( dest , data , ( dataLen + 1 ) ); free ( dest ); 

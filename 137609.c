@@ -1,0 +1,1 @@
+void bad() size_t data ; structType myStruct ; data = 0; data = rand ( ); myStruct . structFirst = data; badSink ( myStruct ); void badSink(structType myStruct) size_t data = myStruct . structFirst ; if ( data > wcslen ( HELLO_STRING ) )  

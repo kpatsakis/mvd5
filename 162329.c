@@ -1,0 +1,1 @@
+void bad() long * data ; data = NULL; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( long * ) calloc ( 100 , sizeof ( long ) ); data = new long [ 100 ]; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; free ( data ); 

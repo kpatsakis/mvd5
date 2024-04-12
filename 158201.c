@@ -1,0 +1,1 @@
+static void goodG2B() char * password ; char passwordBuffer [ 100 ] = "" ; password = passwordBuffer; goodG2BSource ( password ); static void goodG2BSource(char * &password) if ( fgets ( password , 100 , stdin ) == NULL )  password [ 0 ] = '\0'; passwordLen = strlen ( password ); if ( passwordLen > 0 )  password [ passwordLen - 1 ] = '\0'; 

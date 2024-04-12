@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__long_realloc_32_bad() long * data ; long * * dataPtr1 = & data ; long * * dataPtr2 = & data ; data = NULL; long * data = * dataPtr1 ; data = ( long * ) realloc ( data , 1 * sizeof ( long ) ); long * data = * dataPtr2 ; data [ 0 ] = 5L; free ( data ); 

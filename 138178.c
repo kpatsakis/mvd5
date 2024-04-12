@@ -1,0 +1,1 @@
+void CWE114_Process_Control__w32_wchar_t_relativePath_15_bad() wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; switch ( 6 )  wcscpy ( data , L "winsrv.dll" ) HMODULE hModule ; hModule = LoadLibraryW ( data ); if ( hModule != NULL )  FreeLibrary ( hModule ); 

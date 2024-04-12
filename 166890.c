@@ -1,0 +1,1 @@
+static void goodG2B() int64_t * data ; data = ( int64_t * ) malloc ( 100 * sizeof ( int64_t ) ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; goodG2BSink ( dataMap ); void goodG2BSink(map<int, int64_t *> dataMap) int64_t * data = dataMap [ 2 ] ; free ( data ); 

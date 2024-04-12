@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_src_char_cpy_12_bad() char * data ; data = ( char * ) malloc ( 100 * sizeof ( char ) ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; memset ( data , 'A' , 50 - 1 ); data [ 50 - 1 ] = '\0'; char dest [ 50 ] = "" ; strcpy ( dest , data ); 

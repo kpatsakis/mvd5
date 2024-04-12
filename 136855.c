@@ -1,0 +1,1 @@
+static void goodB2G() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; FILE * pFile ; FILE * pFile ; pFile = fopen ( "passwords.txt" , "r" ); if ( pFile != NULL )  if ( fgetws ( data , 100 , pFile ) == NULL )  fclose ( pFile ); 

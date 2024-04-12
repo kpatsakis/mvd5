@@ -1,0 +1,1 @@
+void CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_68b_goodG2BSink() char * data = CWE122_Heap_Based_Buffer_Overflow__c_CWE805_char_loop_68_goodG2BData ; size_t i ; char source [ 100 ] ; memset ( source , 'C' , 100 - 1 ); source [ 100 - 1 ] = '\0'; for (i = 0; i < 100; i++) data [ i ] = source [ i ]; data [ 100 - 1 ] = '\0'; free ( data ); 

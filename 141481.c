@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; data = NULL; if ( data != NULL )  strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

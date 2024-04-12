@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; size_t i ; size_t i ; pFile = fopen ( "password.txt" , "r" ); for (i = 0; i < SHA512_SUM_SIZE; i++) if ( fscanf ( pFile , "%02x" , & val ) != 1 )  fclose ( pFile ); 

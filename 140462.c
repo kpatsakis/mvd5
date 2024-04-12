@@ -1,0 +1,1 @@
+static void goodG2B2() TwoIntsClass * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = ( TwoIntsClass * ) malloc ( 100 * sizeof ( TwoIntsClass ) ); if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; free ( data ); 

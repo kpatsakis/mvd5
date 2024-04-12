@@ -1,0 +1,1 @@
+static void good1() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; HCRYPTHASH hHash ; char password [ PASSWORD_INPUT_SIZE ] ; HCRYPTHASH hHash ; char password [ PASSWORD_INPUT_SIZE ] ; if ( fgets ( password , PASSWORD_INPUT_SIZE , stdin ) == NULL )  if ( ! CryptHashData ( hHash , ( BYTE * ) password , strlen ( password ) , 0 ) )  

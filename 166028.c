@@ -1,0 +1,1 @@
+static void goodB2G1() char * dataBadBuffer = ( char * ) malloc ( sizeof ( OneIntClass ) ) ; data = dataBadBuffer; goodB2G1Sink ( data ); static void goodB2G1Sink(char * data) OneIntClass * classOne = new ( data ) OneIntClass classOne -> intOne = 5; printIntLine ( classOne -> intOne ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

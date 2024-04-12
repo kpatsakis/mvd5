@@ -1,0 +1,1 @@
+static void goodG2B() int data ; map < int , int > dataMap ; data = - 1; data = ASSERT_VALUE + 1; dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; goodG2BSink ( dataMap ); void goodG2BSink(map<int, int> dataMap) int data = dataMap [ 2 ] ; assert ( data > ASSERT_VALUE ); 

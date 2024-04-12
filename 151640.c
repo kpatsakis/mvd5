@@ -1,0 +1,1 @@
+void CWE416_Use_After_Free__malloc_free_long_11_bad() long * data ; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = ( long * ) malloc ( 100 * sizeof ( long ) ); data [ i ] = 5L; free ( data ); printLongLine ( data [ 0 ] ); void printLongLine (long longNumber) printf ( "%ld\n" , longNumber ); 

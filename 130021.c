@@ -1,0 +1,1 @@
+void CWE426_Untrusted_Search_Path__char_popen_08_bad() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; strcpy ( data , BAD_OS_COMMAND ); pipe = POPEN ( data , "wb" ); if ( pipe != NULL )  PCLOSE ( pipe ); 

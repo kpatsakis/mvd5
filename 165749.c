@@ -1,0 +1,1 @@
+void bad() char * data ; data = NULL; data = new char [ 100 ]; strcpy ( data , "A String" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); baseObject -> action ( data ); void CWE401_Memory_Leak__new_array_char_82_bad::action(char * data) 

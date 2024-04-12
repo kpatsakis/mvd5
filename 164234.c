@@ -1,0 +1,1 @@
+void bad() long * data ; long * dataArray [ 5 ] ; data = NULL; data = new long [ 100 ]; dataArray [ 2 ] = data; badSink ( dataArray ); void badSink(long * dataArray[]) long * data = dataArray [ 2 ] ; free ( data ); 

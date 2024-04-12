@@ -1,0 +1,1 @@
+static void goodG2B() int64_t * data ; int64_t * * dataPtr1 = & data ; data = NULL; int64_t * data = * dataPtr1 ; data = ( int64_t * ) malloc ( sizeof ( * data ) ); * dataPtr1 = data; printLongLongLine ( * data ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); free ( data ); 

@@ -1,0 +1,1 @@
+static void goodB2G() twoIntsStruct * data ; data = NULL; data = CWE401_Memory_Leak__twoIntsStruct_calloc_61b_goodB2GSource ( data ); twoIntsStruct * CWE401_Memory_Leak__twoIntsStruct_calloc_61b_goodB2GSource(twoIntsStruct * data) data = ( twoIntsStruct * ) calloc ( 100 , sizeof ( twoIntsStruct ) ); data [ 0 ] . intOne = 0; data [ 0 ] . intTwo = 0; return data ; free ( data ); 

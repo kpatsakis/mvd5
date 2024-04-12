@@ -1,0 +1,1 @@
+void bad() int * data ; data = NULL; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; data = new int [ 100 ]; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; free ( data ); 

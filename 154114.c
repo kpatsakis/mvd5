@@ -1,0 +1,1 @@
+static void goodB2G() long * data ; data = NULL; data = ( long * ) realloc ( data , 1 * sizeof ( long ) ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; if ( data != NULL )  data [ 0 ] = 5L; free ( data ); 

@@ -1,0 +1,1 @@
+static void goodB2G() TwoIntsClass * data ; data = NULL; data = ( TwoIntsClass * ) malloc ( 100 * sizeof ( TwoIntsClass ) ); goodB2GSink_b ( data ); void goodB2GSink_b(TwoIntsClass * data) goodB2GSink_c ( data ); void goodB2GSink_c(TwoIntsClass * data) goodB2GSink_d ( data ); void goodB2GSink_d(TwoIntsClass * data) free ( data ); 

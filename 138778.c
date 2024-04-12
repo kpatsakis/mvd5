@@ -1,0 +1,1 @@
+static void goodB2G() int * data ; data = ( int * ) calloc ( 1 , sizeof ( int ) ); goodB2GSink ( data ); static void goodB2GSink(int * data) if ( data != NULL )  data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); free ( data ); 

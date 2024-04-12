@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; char dataBuffer [ 100 ] = "" ; data = dataBuffer; data = goodB2GSource ( data ); static char * goodB2GSource(char * data) FILE * pFile ; pFile = fopen ( "passwords.txt" , "r" ); if ( pFile != NULL )  if ( fgets ( data , 100 , pFile ) == NULL )  data [ 0 ] = '\0'; 

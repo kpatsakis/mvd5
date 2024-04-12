@@ -1,0 +1,1 @@
+void bad() int * data ; int * & dataRef = data ; data = NULL; static int dataBuffer [ 100 ] ; size_t i ; for (i = 0; i < 100; i++) dataBuffer [ i ] = 5; data = dataBuffer; int * data = dataRef ; free ( data ); 

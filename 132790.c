@@ -1,0 +1,1 @@
+void bad() wchar_t * data ; unionType myUnion ; data = new wchar_t [ 100 ]; wmemset ( data , L 'A' , 100 - 1 data [ 100 - 1 ] = L '\0' myUnion . unionFirst = data; wchar_t * data = myUnion . unionSecond ; wchar_t dest [ 50 ] = L "" wcscpy ( dest , data ); 

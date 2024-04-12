@@ -1,0 +1,1 @@
+static void goodB2G1() double * data ; if ( staticReturnsFalse ( ) )  static int staticReturnsFalse() return 0 ; data = ( double * ) malloc ( sizeof ( double ) ); * data = 5.0; printDoubleLine ( * data ); void printDoubleLine(double doubleNumber) printf ( "%g\n" , doubleNumber ); 

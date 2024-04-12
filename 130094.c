@@ -1,0 +1,1 @@
+static void goodB2G() vector < int > dataVector ; goodB2GSink ( dataVector ); void goodB2GSink(vector<int> dataVector) int data = dataVector [ 2 ] ; int i ; int * buffer = ( int * ) malloc ( 10 * sizeof ( int ) ) ; for (i = 0; i < 10; i++) buffer [ i ] = 0; if ( data >= 0 && data < ( 10 ) )  buffer [ data ] = 1; free ( buffer ); 

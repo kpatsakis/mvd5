@@ -1,0 +1,1 @@
+void CWE415_Double_Free__malloc_free_char_66_bad() char * data ; char * dataArray [ 5 ] ; data = NULL; data = ( char * ) malloc ( 100 * sizeof ( char ) ); dataArray [ 2 ] = data; CWE415_Double_Free__malloc_free_char_66b_badSink ( dataArray ); void CWE415_Double_Free__malloc_free_char_66b_badSink(char * dataArray[]) char * data = dataArray [ 2 ] ; free ( data ); 

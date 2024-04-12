@@ -1,0 +1,1 @@
+static void goodB2G() wchar_t * data ; data = NULL; wchar_t myString [ ] = L "myString" data = wcsdup ( myString ); goodB2GSink_b ( data ); void goodB2GSink_b(wchar_t * data) goodB2GSink_c ( data ); void goodB2GSink_c(wchar_t * data) free ( data ); 

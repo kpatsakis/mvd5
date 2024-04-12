@@ -1,0 +1,1 @@
+void CWE328_Reversible_One_Way_Hash__w32_SHA1_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; size_t i ; for (i = 0; i < SHA1_SUM_SIZE; i++) ULONG val ; size_t i ; pFile = fopen ( "password.txt" , "r" ); for (i = 0; i < SHA512_SUM_SIZE; i++) ULONG val ; if ( val > 0xff )  fclose ( pFile ); 

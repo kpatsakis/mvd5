@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__char_malloc_32_bad() char * data ; data = ( char * ) malloc ( 20 * sizeof ( char ) ); * dataPtr1 = data; strcpy ( data , "Initialize" ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

@@ -1,0 +1,1 @@
+void CWE758_Undefined_Behavior__char_malloc_use_11_bad() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; char * pointer = ( char * ) malloc ( sizeof ( char ) ) ; char data = * pointer ; free ( pointer ); printHexCharLine ( data ); void printHexCharLine (char charHex) printf ( "%02x\n" , charHex ); 

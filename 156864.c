@@ -1,0 +1,1 @@
+void CWE617_Reachable_Assertion__fgets_11_bad() int data ; data = - 1; if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = atoi ( inputBuffer ); assert ( data > ASSERT_VALUE ); 

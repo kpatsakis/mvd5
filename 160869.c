@@ -1,0 +1,1 @@
+void bad() int i ; char * data ; data = NULL; for(i = 0; i < 1; i++) data = new char [ 10 ]; char source [ 10 + 1 ] = SRC_STRING ; strncpy ( data , source , strlen ( source ) + 1 ); printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); delete [ ] data 

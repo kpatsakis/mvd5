@@ -1,0 +1,1 @@
+void CWE416_Use_After_Free__malloc_free_int64_t_12_bad() int64_t * data ; if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; data = ( int64_t * ) malloc ( 100 * sizeof ( int64_t ) ); free ( data ); printLongLongLine ( data [ 0 ] ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); 

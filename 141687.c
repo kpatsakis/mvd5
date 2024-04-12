@@ -1,0 +1,1 @@
+void bad() list < short > dataList ; badSink ( dataList ); void badSink(list<short> dataList) short data = dataList . back ( ) ; if ( data < 100 )  char * dataBuffer = ( char * ) malloc ( data ) ; memset ( dataBuffer , 'A' , data - 1 ); dataBuffer [ data - 1 ] = '\0'; free ( dataBuffer ); 

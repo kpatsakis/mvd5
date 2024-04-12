@@ -1,0 +1,1 @@
+static void goodG2B() int * data ; int dataGoodBuffer [ 100 ] ; data = dataGoodBuffer; int * dataCopy = data ; int * data = dataCopy ; int source [ 100 ] = { 0 } ; memmove ( data , source , 100 * sizeof ( int ) ); printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

@@ -1,0 +1,1 @@
+void bad() int * data ; int * & dataRef = data ; data = NULL; int * dataBuffer = ( int * ) ALLOCA ( 100 * sizeof ( int ) ) ; size_t i ; for (i = 0; i < 100; i++) dataBuffer [ i ] = 5; data = dataBuffer; int * data = dataRef ; free ( data ); 

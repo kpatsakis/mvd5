@@ -1,0 +1,1 @@
+void CWE590_Free_Memory_Not_on_Heap__free_char_static_17_bad() int i ; char * data ; data = NULL; for(i = 0; i < 1; i++) static char dataBuffer [ 100 ] ; memset ( dataBuffer , 'A' , 100 - 1 ); dataBuffer [ 100 - 1 ] = '\0'; data = dataBuffer; free ( data ); 

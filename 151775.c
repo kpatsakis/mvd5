@@ -1,0 +1,1 @@
+static void goodG2B() int count ; count = - 1; count = goodG2BSource ( count ); static int goodG2BSource(int count) count = 20; return count ; const char * filename = "output_bad.txt" ; pFile = fopen ( filename , "w+" ); for (i = 0; i < (size_t)count; i++) if ( strlen ( SENTENCE ) != fwrite ( SENTENCE , sizeof ( char ) , strlen ( SENTENCE ) , pFile ) )  

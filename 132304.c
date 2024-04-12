@@ -1,0 +1,1 @@
+static void goodG2B() int h , j ; wchar_t * data ; wchar_t dataBuffer [ 100 ] = L "" data = dataBuffer; for(h = 0; h < 1; h++) wcscpy ( data , L "fixedstringtest" ) for(j = 0; j < 1; j++) goodG2BVaSinkB ( data , data ); static void goodG2BVaSinkB(wchar_t * data, ...) wchar_t dest [ 100 ] = L "" va_list args ; _vsnwprintf ( dest , 100 - 1 , data , args ); 

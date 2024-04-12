@@ -1,0 +1,1 @@
+static void mipsnet_sysbus_reset(DeviceState *dev) MIPSnetState * s = MIPS_NET ( dev ) ; mipsnet_reset ( s ); static void mipsnet_reset(MIPSnetState *s) s -> busy = 1; s -> rx_count = 0; s -> rx_read = 0; s -> tx_count = 0; s -> tx_written = 0; s -> intctl = 0; memset ( s -> rx_buffer , 0 , MAX_ETH_FRAME_SIZE ); memset ( s -> tx_buffer , 0 , MAX_ETH_FRAME_SIZE ); 

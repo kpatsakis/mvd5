@@ -1,0 +1,1 @@
+void CWE467_Use_of_sizeof_on_Pointer_Type__short_12_bad() if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; short * goodShort = NULL ; goodShort = ( short * ) malloc ( sizeof ( * goodShort ) ); * goodShort = 6; printShortLine ( * goodShort ); void printShortLine (short shortNumber) printf ( "%hd\n" , shortNumber ); free ( goodShort ); 

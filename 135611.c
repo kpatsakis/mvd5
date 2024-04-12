@@ -1,0 +1,1 @@
+static void goodG2B() FILE * data ; data = fopen ( "GoodSource_fopen.txt" , "w+" ); dataMap [ 0 ] = data; dataMap [ 1 ] = data; dataMap [ 2 ] = data; goodG2BSink ( dataMap ); void goodG2BSink(map<int, FILE *> dataMap) FILE * data = dataMap [ 2 ] ; fclose ( data ); 

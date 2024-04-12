@@ -1,0 +1,1 @@
+static void goodG2B1() double * data ; if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; data = ( double * ) malloc ( sizeof ( double ) ); * data = 5.0; printDoubleLine ( * data ); void printDoubleLine(double doubleNumber) printf ( "%g\n" , doubleNumber ); 

@@ -1,0 +1,1 @@
+static void goodG2B2() FILE * data ; data = NULL; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = fopen ( "GoodSource_fopen.txt" , "w+" ); if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; fclose ( data ); 

@@ -1,0 +1,1 @@
+static void goodB2G1() int64_t * data ; data = NULL; data = ( int64_t * ) realloc ( data , 1 * sizeof ( int64_t ) ); if ( globalReturnsFalse ( ) )  int globalReturnsFalse() return 0 ; if ( data != NULL )  data [ 0 ] = 5L L free ( data ); 

@@ -1,0 +1,1 @@
+static void goodG2B() int h ; char * data ; for(h = 0; h < 1; h++) data = ( char * ) malloc ( ( 10 + 1 ) * sizeof ( char ) ); data [ i ] = source [ i ]; printLine ( data ); void printLine (const char * line) if ( line != NULL )  printf ( "%s\n" , line ); free ( data ); 

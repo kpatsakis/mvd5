@@ -1,0 +1,1 @@
+static void goodB2G() int * data ; int * dataArray [ 5 ] ; data = NULL; data = ( int * ) malloc ( 1 * sizeof ( int ) ); dataArray [ 2 ] = data; CWE690_NULL_Deref_From_Return__int_malloc_66b_goodB2GSink ( dataArray ); void CWE690_NULL_Deref_From_Return__int_malloc_66b_goodB2GSink(int * dataArray[]) int * data = dataArray [ 2 ] ; if ( data != NULL )  data [ 0 ] = 5; free ( data ); 

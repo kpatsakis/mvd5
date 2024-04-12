@@ -1,0 +1,1 @@
+void CWE459_Incomplete_Cleanup__char_17_bad() int j ; for(j = 0; j < 1; j++) char * filename ; char tmpl [ ] = "badXXXXXX" ; FILE * pFile ; filename = MKTEMP ( tmpl ); if ( filename != NULL )  pFile = FOPEN ( filename , "w" ); if ( pFile != NULL )  fprintf ( pFile , "Temporary file" ); fclose ( pFile ); 

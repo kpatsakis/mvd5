@@ -1,0 +1,1 @@
+void CWE126_Buffer_Overread__malloc_wchar_t_memmove_17_bad() int i ; wchar_t * data ; for(i = 0; i < 1; i++) data = ( wchar_t * ) malloc ( 50 * sizeof ( wchar_t ) ); memmove ( dest , data , wcslen ( dest ) * sizeof ( wchar_t ) ); printWLine ( dest ); void printWLine (const wchar_t * line) if ( line != NULL )  wprintf ( L "%ls\n" , line ) free ( data ); 

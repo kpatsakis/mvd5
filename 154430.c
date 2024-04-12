@@ -1,0 +1,1 @@
+static void goodG2B2() twoIntsStruct * data ; data = NULL; data = goodG2B2Source ( data ); static twoIntsStruct * goodG2B2Source(twoIntsStruct * data) if ( goodG2B2Static )  data = ( twoIntsStruct * ) malloc ( sizeof ( * data ) ); data -> intOne = 1; data -> intTwo = 2; return data ; 

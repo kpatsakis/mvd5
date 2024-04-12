@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__fopen_66_bad() FILE * data ; FILE * dataArray [ 5 ] ; data = NULL; data = fopen ( "file.txt" , "w+" ); dataArray [ 2 ] = data; CWE690_NULL_Deref_From_Return__fopen_66b_badSink ( dataArray ); void CWE690_NULL_Deref_From_Return__fopen_66b_badSink(FILE * dataArray[]) FILE * data = dataArray [ 2 ] ; fclose ( data ); 

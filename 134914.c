@@ -1,0 +1,1 @@
+static void goodG2B() int64_t * data ; data = ( int64_t * ) malloc ( 100 * sizeof ( int64_t ) ); goodG2BSink_b ( data ); void goodG2BSink_b(int64_t * data) goodG2BSink_c ( data ); void goodG2BSink_c(int64_t * data) goodG2BSink_d ( data ); void goodG2BSink_d(int64_t * data) free ( data ); 

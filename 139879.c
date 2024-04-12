@@ -1,0 +1,1 @@
+void CWE191_Integer_Underflow__int_fgets_sub_34_bad() char inputBuffer [ CHAR_ARRAY_SIZE ] = "" ; if ( fgets ( inputBuffer , CHAR_ARRAY_SIZE , stdin ) != NULL )  data = atoi ( inputBuffer ); myUnion . unionFirst = data; int data = myUnion . unionSecond ; int result = data - 1 ; printIntLine ( result ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

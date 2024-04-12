@@ -1,0 +1,1 @@
+void CWE401_Memory_Leak__int_realloc_17_bad() int i , j ; int * data ; data = NULL; for(i = 0; i < 1; i++) data = ( int * ) realloc ( data , 100 * sizeof ( int ) ); data [ 0 ] = 5; printIntLine ( data [ 0 ] ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

@@ -1,0 +1,1 @@
+static void good1() int k ; for(k = 0; k < 1; k++) unsigned intUnsigned ; intUnsigned = rand ( ); intUnsigned = UINT_MAX - intUnsigned; if ( intUnsigned > INT_MAX )  intSigned = intUnsigned; printIntLine ( intSigned ); void printIntLine (int intNumber) printf ( "%d\n" , intNumber ); 

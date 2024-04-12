@@ -1,0 +1,1 @@
+static void goodB2G() wchar_t * data ; data = NULL; data = ( wchar_t * ) malloc ( 20 * sizeof ( wchar_t ) ); if ( globalReturnsTrueOrFalse ( ) )  int globalReturnsTrueOrFalse() return ( rand ( ) % 2 ) ; if ( data != NULL )  wcscpy ( data , L "Initialize" ) if ( data != NULL )  wcscpy ( data , L "Initialize" ) free ( data ); 

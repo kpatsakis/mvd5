@@ -1,0 +1,1 @@
+void CWE427_Uncontrolled_Search_Path_Element__char_environment_08_bad() char * data ; char dataBuffer [ 250 ] = "PATH=" ; data = dataBuffer; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; size_t dataLen = strlen ( data ) ; strncat ( data + dataLen , environment , 250 - dataLen - 1 ); PUTENV ( data ); 

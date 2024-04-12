@@ -1,0 +1,1 @@
+void CWE690_NULL_Deref_From_Return__int64_t_realloc_31_bad() int64_t * data ; data = NULL; data = ( int64_t * ) realloc ( data , 1 * sizeof ( int64_t ) ); int64_t * dataCopy = data ; int64_t * data = dataCopy ; printLongLongLine ( data [ 0 ] ); void printLongLongLine (int64_t longLongIntNumber) printf ( "%lld\n" , longLongIntNumber ); free ( data ); 

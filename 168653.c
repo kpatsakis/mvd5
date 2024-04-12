@@ -1,0 +1,1 @@
+static void goodB2G() long * data ; data = NULL; data = CWE690_NULL_Deref_From_Return__long_calloc_61b_goodB2GSource ( data ); long * CWE690_NULL_Deref_From_Return__long_calloc_61b_goodB2GSource(long * data) data = ( long * ) calloc ( 1 , sizeof ( long ) ); return data ; if ( data != NULL )  data [ 0 ] = 5L; free ( data ); 

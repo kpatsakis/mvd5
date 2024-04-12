@@ -1,0 +1,1 @@
+static void goodB2G() char * data ; char myString [ ] = "myString" ; data = strdup ( myString ); goodB2GSink_b ( data ); void goodB2GSink_b(char * data) goodB2GSink_c ( data ); void goodB2GSink_c(char * data) goodB2GSink_d ( data ); void goodB2GSink_d(char * data) goodB2GSink_e ( data ); void goodB2GSink_e(char * data) free ( data ); 

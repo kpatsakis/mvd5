@@ -1,0 +1,1 @@
+void CWE328_Reversible_One_Way_Hash__w32_MD2_11_bad() if ( globalReturnsTrue ( ) )  int globalReturnsTrue() return 1 ; char password [ PASSWORD_INPUT_SIZE ] ; char * replace ; if ( fgets ( password , PASSWORD_INPUT_SIZE , stdin ) == NULL )  replace = strchr ( password , '\n' ); if ( replace )  * replace = '\0'; 

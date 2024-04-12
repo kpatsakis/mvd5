@@ -1,0 +1,1 @@
+static void goodG2B() wchar_t * data ; data = NULL; data = goodG2BSource ( data ); static wchar_t * goodG2BSource(wchar_t * data) data = ( wchar_t * ) malloc ( 100 * sizeof ( wchar_t ) ); wmemset ( data , L 'A' , 100 - 1 data [ 100 - 1 ] = L '\0' return data ; free ( data ); 

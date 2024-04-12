@@ -1,0 +1,1 @@
+static void goodB2G1() twoIntsStruct * data ; data = NULL; data = ( twoIntsStruct * ) malloc ( 1 * sizeof ( twoIntsStruct ) ); goodB2G1Sink ( data ); static void goodB2G1Sink(twoIntsStruct * data) if ( goodB2G1Static )  if ( data != NULL )  data [ 0 ] . intOne = 1; data [ 0 ] . intTwo = 1; free ( data ); 

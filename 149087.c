@@ -1,0 +1,1 @@
+void CWE789_Uncontrolled_Mem_Alloc__malloc_char_rand_08_bad() size_t data ; data = 0; if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; data = rand ( ); if ( staticReturnsTrue ( ) )  static int staticReturnsTrue() return 1 ; if ( data > strlen ( HELLO_STRING ) )  
